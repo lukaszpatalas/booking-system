@@ -1,0 +1,57 @@
+/* In Menu.css */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c8a8da;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .menu-items {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .login-signup {
+    margin-left: auto;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .menu-items {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      width: 24px;
+      height: 16px;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+  
+    .hamburger-menu .bar {
+      background-color: #fff;
+      height: 2px;
+      width: 100%;
+    }
+  
+    .menu.open .menu-items {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  

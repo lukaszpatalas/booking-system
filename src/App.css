@@ -1,0 +1,20 @@
+.app-container {
+    display: grid;
+    grid-template-areas:
+      'menu'
+      'header'
+      'main';
+  }
+  
+  .menu {
+    grid-area: menu;
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .main {
+    grid-area: main;
+  }
+  
