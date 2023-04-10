@@ -1,0 +1,73 @@
+/* Menu Component */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c8a8da;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: #000;
+  }
+  
+  nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  nav a.active {
+    background-color: #ead2df;
+  }
+  
+  .login-signup {
+    background-color: #fff5e9;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* Mobile Menu */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    nav {
+      display: none;
+      flex-direction: column;
+      gap: 0.5rem;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+      background-color: #c8a8da;
+      padding: 1rem;
+      border-radius: 0 0 5px 5px;
+    }
+  
+    nav.menu-open {
+      display: flex;
+    }
+  }
+  
