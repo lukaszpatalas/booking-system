@@ -26,7 +26,7 @@ const Menu = () => {
         <NavLink to="/why-makaton" onClick={toggleMenu}>Why Makaton</NavLink>
       </div>
       <div className="login-signup">
-        <NavLink to="/login">Login/Signup</NavLink>
+      <NavLink to="/login-signup">Login/Signup</NavLink>
       </div>
     </nav>
   );
