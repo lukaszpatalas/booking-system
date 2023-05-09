@@ -7,6 +7,7 @@ import Download from '../Download/Download';
 import Contact from '../Contact/Contact';
 import LoginSignup from '../LoginSignup/LoginSignup';
 import WhyMakaton from '../WhyMakaton/WhyMakaton';
+import Admin from '../Admin/Admin';
 
 const Main = () => {
   return (
@@ -19,6 +20,7 @@ const Main = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login-signup" element={<LoginSignup />} />
         <Route path="/why-makaton" element={<WhyMakaton />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </main>
   );

@@ -18,12 +18,13 @@ const Menu = () => {
         <div className="bar"></div>
       </div>
       <div className="menu-items">
-        <NavLink exact to="/" onClick={toggleMenu}>Home</NavLink>
+        <NavLink exact={true} to="/" onClick={toggleMenu}>Home</NavLink>
         <NavLink to="/booking" onClick={toggleMenu}>Booking</NavLink>
         <NavLink to="/account" onClick={toggleMenu}>Account</NavLink>
         <NavLink to="/download" onClick={toggleMenu}>Download</NavLink>
         <NavLink to="/contact" onClick={toggleMenu}>Contact</NavLink>
         <NavLink to="/why-makaton" onClick={toggleMenu}>Why Makaton</NavLink>
+        <NavLink to="/admin" onClick={toggleMenu}>Admin</NavLink>
       </div>
       <div className="login-signup">
       <NavLink to="/login-signup">Login/Signup</NavLink>
