@@ -83,8 +83,8 @@ const LoginSignup = () => {
               Log In
             </button>
             <button className="google-login" onClick={handleGoogleSignIn}>
-  Log In with Google
-</button>
+              Log In with Google
+            </button>
 
             <p>
               New to Makaton?{' '}
