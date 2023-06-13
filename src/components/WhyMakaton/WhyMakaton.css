@@ -1,0 +1,46 @@
+.why-makaton-page {
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    padding: 2rem;
+}
+
+.why-makaton-page h1 {
+    margin-bottom: 1rem;
+    color: #c8a8da;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.why-makaton-page h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #c8a8da;
+    font-size: 1.5rem;
+}
+
+.why-makaton-page p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .why-makaton-page {
+        padding: 1rem;
+    }
+
+    .why-makaton-page h1 {
+        font-size: 1.5rem;
+    }
+
+    .why-makaton-page h2 {
+        font-size: 1.2rem;
+    }
+
+    .why-makaton-page p {
+        font-size: 0.9rem;
+    }
+}
